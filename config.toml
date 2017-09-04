@@ -1,0 +1,33 @@
+archetypeDir           = "archetypes"
+# baseUrl                = "https://jisoon.github.io"
+# relativeURLs           = true
+# canonifyUrls           = true
+languageCode           = "ko"
+layoutDir              = "layouts"
+theme                  = "pixyll"
+title                  = "Write whatever!"
+relativeURLs           = true
+canonifyUrls           = true
+enableEmoji            = true
+DefaultContentLanguage = "ko"
+copyright = "&copy; Copyright notice"
+
+
+[Languages]
+[Languages.en]
+weight = 1
+
+[blackfriday]
+angledQuotes = true
+hrefTargetBlank = true
+
+[indexes]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  #search_engine = true
+  #google_analytics_id = ""
+  #twitter_username = "username"
+  #disqus_shortname = ""
+  paginate = 5
